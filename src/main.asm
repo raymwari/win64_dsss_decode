@@ -29,7 +29,7 @@ section .text
 
     mov rcx, rsi
     lea rdx, file_read_buf
-    mov r8, MAX_JPEG_SIZE
+    mov r8, MAX_FILE_SIZE
     lea r9, read
     mov qword [rsp + 32], 0
     call ReadFile
