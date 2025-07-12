@@ -1,7 +1,7 @@
 section .data
-  spread_factor equ 5
+  spread_factor equ 15
   seed equ 0x2000
-  modulus equ 6656
+  modulus equ 656656
   m_const equ 101
   a_const equ 17 
   header_offet equ 192
@@ -70,7 +70,7 @@ section .text
           test rcx, rcx
           jnz rec_loop
          
-      cmp rdx, 2
+      cmp rdx, 11
       jg write_one
       mov byte [rdi], '0'
       jmp next
