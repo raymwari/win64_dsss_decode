@@ -1,5 +1,5 @@
 # win64_dsss_decode
-A direct signal spread spectrum steganography demonstration on an audio file in win64 assembler (decode)
+Continued ...
 
 # Prerequisites:
 https://github.com/raymwari/win64_dsss_encode <br>
