@@ -10,7 +10,7 @@ https://www.godevtool.com
 https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499-
 
 ## Usage:
-Decodes a message encoded in `out.mp3` to `stdout` on the console
+Decodes a message encoded in `out.mp3` to `stdout` on the console. View `config.cfg` ...
 
 ## Demo:
 
