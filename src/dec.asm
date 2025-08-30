@@ -24,6 +24,7 @@ section .text
     mov r11, 0
     toencloop:
       mov r9, spread_factor
+
       modulate:
         mov r10, seed
         add r10, r11
@@ -57,6 +58,7 @@ section .text
     recover:
       mov rcx, spread_factor
       xor rdx, rdx
+
       rec_loop:
         mov al, [rsi]
         cmp al, '0'
@@ -89,6 +91,7 @@ section .text
     unbin:
       mov al, 0
       mov rcx, 8
+
       reconstruct:
         mov bl, [rsi]
         shl al, 1
@@ -117,3 +120,4 @@ section .text
     call WriteConsoleA   
 
     jmp out 
+
